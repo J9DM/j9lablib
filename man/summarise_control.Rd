@@ -2,7 +2,7 @@
 % Please edit documentation in R/summarise_control.R
 \name{summarise_control}
 \alias{summarise_control}
-\title{Title}
+\title{Returns the mean and sd of the control condition for each group.}
 \usage{
 summarise_control(df, group_vars, filter_var, ctrl_condition, summarise_vars)
 }
@@ -21,5 +21,5 @@ summarise_control(df, group_vars, filter_var, ctrl_condition, summarise_vars)
 A tibble of mean control values and sd
 }
 \description{
-Title
+Returns the mean and sd of the control condition for each group.
 }

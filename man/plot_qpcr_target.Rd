@@ -16,7 +16,7 @@ plot_qpcr_target(df, facet_vars = c("target", "condition"), color_by, pch_by)
 \item{pch_by}{variable for plotting character, quoted}
 }
 \value{
-A plot
+A plot of 2^(CT_ctrl - CT) for each target and condition
 }
 \description{
 QC plot for qPCR data

@@ -3,6 +3,7 @@
 export("%>%")
 export(calculate_qpcr_step_1)
 export(calculate_qpcr_step_2)
+export(plot_mybarplot)
 export(plot_qpcr_target)
 export(summarise_control)
 importFrom(magrittr,"%>%")

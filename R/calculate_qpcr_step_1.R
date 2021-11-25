@@ -1,8 +1,8 @@
 #' Calculates delta CT for each sample.
 #'
 #' @param df input tibble in wide format
-#' @param target_now target gene
-#' @param housekeeping_now reference gene
+#' @param target_now target gene, quoted
+#' @param housekeeping_now reference gene, quoted
 #'
 #' @importFrom rlang .data
 #'

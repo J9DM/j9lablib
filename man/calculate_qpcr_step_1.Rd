@@ -9,9 +9,9 @@ calculate_qpcr_step_1(df, target_now, housekeeping_now)
 \arguments{
 \item{df}{input tibble in wide format}
 
-\item{target_now}{target gene}
+\item{target_now}{target gene, quoted}
 
-\item{housekeeping_now}{reference gene}
+\item{housekeeping_now}{reference gene, quoted}
 }
 \value{
 A tibble with delta CT values
